@@ -1,0 +1,24 @@
+<!doctype html>
+<html nag="en">
+<head>
+<meta charset="utf-8">
+<title>Contact us</title>
+</head>
+
+<body>
+<nav>
+<!-- main navigation -->
+	<a href="index.html">Home</a>
+	<a href="bear.html">The Bear Page</a>
+	<a href="#">Contact</a>
+</nav>
+<h1>Contact me:</h1>
+<form action="mailto:klu@cphbusiness.dk?subject=Sending my Form!" method="post" enctype="text/plain">
+<!-- Constraint validation af et web form med attributerne "required" og type -->
+	<p><input name="name" type="text" placeholder="Your name..." required></p>
+	<p><input name="mail" type="email" placeholder="Your mail address..." required></p>
+	<p><textarea name="massage" placeholder="Your massage..."></textarea></p>
+	<p><input name="submit" type="submit" value="Submit yourself!"></p>
+</form>
+</body>
+</html>

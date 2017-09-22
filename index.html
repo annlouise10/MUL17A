@@ -6,7 +6,8 @@
 <!-- et "embedded" style område -->
 <style type="text/css">
 	table {
-		width: 800px;
+		width: 90%;
+		margin: auto;
 		/* overskriver standart ramme på en table*/
 		border-collapse: collapse;
 		border: 1px solid #000000;
@@ -17,11 +18,25 @@
 		padding: 10px;
 	}
 	
+	#container {
+		width: 80%;
+		margin: 0px auto;
+		border: 1px solid black;
+	}
+	
+	#main-navigation {
+		height: 10vh;
+		border-bottom: 1px solid black;
+		padding: 10px;
+		line-height: 10vh;
+	}
+	
 </style>
 </head>
 
 <body>
-<nav>
+<div id="container">
+<nav id="main-navigation">
 <!-- main navigation -->
 	<a href="#">Home</a>
 	<a href="bear.html">The Bear Page</a>
@@ -78,5 +93,7 @@
     </tr>
   </tbody>
 </table>
+<!-- slut container -->
+</div>
 </body>
 </html>
